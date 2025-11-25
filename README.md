@@ -25,6 +25,16 @@ Initial EDA and subsequent validation via the Random Forest Classifier confirmed
 | **3** | **Operational Inefficiency** | **$\mathbf{9.2\%}$** (Avg\_CTAT) | **Hypothesis:** Excessive time spent waiting for the customer (Customer Acceptance Time) is a significant source of wasted time and reduced hourly earnings. |
 
 ---
+### Power BI: Visualizing the Business Impact
+
+The interactive dashboard translates complex ML findings into actionable business KPIs, helping operational managers monitor risk in real-time.
+
+### Dashboard Key Insights:
+* **Cancellation Hotspots:** The **"Sum of Cancelled Rides by Driver by Pickup Location"** chart highlights specific areas (e.g., Nehru Place, Shivaji Park) that are systemic operational failures and need localized support or incentive changes.
+* **Vehicle Performance:** The **"Sum of Customer Rating by Vehicle Type"** shows vehicles like **Auto** and **Go Mini** have the highest rating volume, indicating higher customer satisfaction/usage in those segments.
+* **Operational Friction:** KPIs show the average **Avg CTAT** (Customer Trip Acceptance Time) and **Avg VTAT** (Vehicle Trip Acceptance Time), allowing for monitoring of overall system efficiency.
+
+<img width="1030" height="588" alt="image" src="https://github.com/user-attachments/assets/b73222ec-3ad1-4fe5-abda-708498db039a" />
 
 ### Technical Approach
 
